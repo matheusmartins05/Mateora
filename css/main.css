@@ -1,0 +1,25 @@
+:root {
+  font-size: 62.5%; /* 10px; */
+
+  --main-black: #000000;
+  --silver: #cccccc;
+  --yellow: #daff01;
+  --purple: #9353ff;
+
+  --mobile: 37.5rem;
+  --limitation: 33.2rem;
+}
+
+body {
+  width: var(--mobile);
+
+}
+
+.pageLimit {
+    width: var(--limitation);
+}
+
+header {
+  height: 5.8rem;
+  background-color: var(--main-black);
+}
