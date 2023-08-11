@@ -12,14 +12,21 @@
 
 body {
   width: var(--mobile);
-
+  padding: 0;
+  margin: 0;
+  margin: auto;
 }
 
 .pageLimit {
-    width: var(--limitation);
+  width: var(--limitation);
 }
 
 header {
-  height: 5.8rem;
+  height: 14.4rem;
   background-color: var(--main-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
+.sectionLogoMenu
