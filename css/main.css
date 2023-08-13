@@ -10,6 +10,10 @@
   --limitation: 33.2rem;
 }
 
+.flex{
+  display: flex;
+}
+
 body {
   width: var(--mobile);
   padding: 0;
@@ -23,10 +27,42 @@ body {
 
 header {
   height: 14.4rem;
-  background-color: var(--main-black);
+
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  align-items: center;
 }
 
-.sectionLogoMenu
+.sectionLogoMenu{
+  background-color: var(--main-black);
+  height: 50%;
+  width: 100%;
+
+}
+
+.centerMenu{
+  margin: auto;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionSearch{
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.sectionSearch input{
+  height: 3.7rem;
+  text-indent: 1.2rem;
+  width: 25.5rem;
+}
+
+.sectionSearch button{
+  height: 3.9rem;
+  width: 8.8rem;
+  border: 1px solid var(--main-black);
+  font-weight: bold;
+}
