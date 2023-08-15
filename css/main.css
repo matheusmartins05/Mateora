@@ -17,3 +17,13 @@
 .divs-facilidades{
   width: 325px;
 }
+
+
+.verMais{
+  background-color: var(--purple);
+  color: #fff; 
+}
+
+.verdeNeon{
+  color: var(--yellow);
+}
