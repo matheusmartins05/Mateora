@@ -27,3 +27,12 @@
 .verdeNeon{
   color: var(--yellow);
 }
+
+.cadastro{
+  width: 80%;
+  max-width: 780px;
+}
+
+.rodape{
+  height: 60px;
+}
