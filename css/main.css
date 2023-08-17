@@ -34,5 +34,11 @@
 }
 
 .rodape{
-  height: 60px;
+  height: 65px;
+  width: 100%;
+}
+
+.carousel-caption{
+  text-align: end;
+  height: 60%;
 }
